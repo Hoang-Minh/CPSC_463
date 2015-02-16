@@ -1,0 +1,18 @@
+﻿body 
+{
+	background-color:Black;
+}
+.label
+{
+	background-color:White;
+	font-family:MS Gothic;
+	color:Red;
+	font-weight:bold;
+}
+.button
+{
+	background-color:White;
+	font-family:MS Gothic;
+	color:Red;
+	font-weight:bolder;
+}

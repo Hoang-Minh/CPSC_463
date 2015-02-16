@@ -1,0 +1,36 @@
+﻿body 
+{
+	background-color:Black;
+;
+	
+	
+}
+h1
+{
+	color:RGB(73, 251, 53);
+	font-family:Brush Script MT;
+}
+
+.Label
+{
+	color:RGB(73, 251, 53);
+	font-weight:bold;
+	font-family:MS Gothic;
+}
+.Button
+{
+	color:RGB(73, 251, 53);
+	font-family:MS Gothic;
+	font-weight:bold;
+	background-color:Black;
+}
+#ContentImage
+{
+	position:relative;
+}
+.image
+{
+	position: absolute;
+    top: 0px;
+    right: 0px;
+}

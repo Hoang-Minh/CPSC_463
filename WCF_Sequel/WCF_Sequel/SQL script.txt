@@ -1,0 +1,5 @@
+CREATE TABLE dbo.TVSeries(
+ 
+[TVSeriesName] VARCHAR(max) NOT NULL,
+[FavMaleChar] VARCHAR(max) NOT NULL,
+[FavFemaleChar] VARCHAR(max) NOT NULL)
