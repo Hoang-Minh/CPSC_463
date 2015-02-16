@@ -1,0 +1,7 @@
+Test Data
+
+Side a			Side b			Side c			Result
+5				6				7				Scalene
+299				299				299				Equilateral
+200				100				200				Isosceles
+5				8				3				Not a Triangle
