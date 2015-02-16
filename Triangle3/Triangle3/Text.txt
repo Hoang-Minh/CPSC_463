@@ -5,3 +5,6 @@ Side a			Side b			Side c			Result
 299				299				299				Equilateral
 200				100				200				Isosceles
 5				8				3				Not a Triangle
+3				4				5				Right triangle
+4				5				3				Right triangle
+5				3				4				Right triangle

@@ -1,11 +1,9 @@
 /*
 Name: Minh Vu Hoang Nguyen
-ID: 892335290
-email: hoangminh@csu.fullerton.edu
 CPSC 463
-M-W
+M-W @ 8:30am
 
-Triangle version 3
+Triangle version 4
 */
 
 #include<iostream>
@@ -50,8 +48,10 @@ int main()
 	{
         if((a == b) && (b == c))
             cout << "Equilateral" << endl;
-		else if( (a != b) && (a != c) && (b != c))
-            cout << "Scalene" << endl;
+		else if ((c * c == a * a + b * b) || (a * a == c * c + b * b) || (b * b == a * a + c * c))
+			cout << "Right triangle" << endl;
+		else if ((a != b) && (a != c) && (b != c))
+			cout << "Scalene" << endl;		
 		else
             cout << "Isosceles" << endl;
 	}
